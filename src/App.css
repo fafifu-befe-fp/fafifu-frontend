@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 :root{
@@ -42,35 +43,52 @@
     margin-left: -5%;
 }
 
-.loginimg{
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(160,110,206,1) 100%);  /* Chrome 10-25, Safari 5.1-6 */
-    background-size: cover;
-    background-repeat: no-repeat;
+.login-page{
+    height: 100vh;
 }
 
-.fontwrapper{
-    font-weight: bold;
-    font-size: 40px;
+.login-right h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.brspacing{
-    margin-top: -10%;
+.login-right label{
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
-textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
-input:focus,
-button:focus,
-button:active,
-button:hover,
-label:focus,
-.btn:active,
-.btn.active,
-select:active, 
-select:focus
+.login-right ::placeholder{
+    font-size: 12px;
+}
+
+.login-right span {
+    font-size: 14px;
+    line-height: 20px;  
+}
+
+.login-right span a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--basecolor);
+}
+
+.imglogin{
+    height: 100vh;
+    width: 960px;
+    object-fit: cover;
+}
+
+input[type=text], input[type=email] {
+    font-size: 12px;
+}
+
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, 
+input:focus, button:focus, button:active, button:hover, label:focus,
+.btn:active, .btn.active, select:active,  select:focus
 {
     outline:0px !important;
     -webkit-appearance:none;

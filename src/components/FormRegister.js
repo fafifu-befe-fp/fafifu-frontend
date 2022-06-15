@@ -1,20 +1,18 @@
 import React from 'react'
-import LoginLeftSide from './LoginLeftSide'
-import LoginRightSide from './LoginRightSide'
+import RegisterRightSide from './RegisterRightSide'
+import RegisterLeftSide from './RegisterLeftSide'
 
-
-const FormLogin = () => {
-
+const FormRegister = () => {
   return (
     <div className='login-page d-flex m-0'>
         <div className='login-left w-50 h-100'>
-          <LoginLeftSide />
+          <RegisterLeftSide />
         </div>
         <div className='login-right w-50 h-100'>
-          <LoginRightSide />
+          <RegisterRightSide />
         </div>
     </div>
   )
 }
 
-export default FormLogin
+export default FormRegister
