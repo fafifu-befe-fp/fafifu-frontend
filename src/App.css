@@ -6,6 +6,7 @@
 
 :root{
     --basecolor: #7126B5;
+    --hovercolor: #54197e;
 }
 
 .buttonsimpan{
@@ -16,6 +17,10 @@
     border-style: none;
 }
 
+.buttonsimpan:hover{
+    background-color: var(--hovercolor);
+}
+
 .forminfo label{
     font-size: 12px;
     margin-bottom: 5px;
@@ -23,5 +28,38 @@
 
 .forminfo ::placeholder, .forminfo select{
     font-size: 12px;
+}
+
+.backlogo{
+    position: relative;
+    top: 0%;
+    left: -10%;
+}
+
+.listfile{
+    font-size: 12px;
+    list-style: none;
+    margin-left: -5%;
+}
+
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+select:active, 
+select:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
 }
 
