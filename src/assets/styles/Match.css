@@ -1,0 +1,39 @@
+.button-match-terima {
+    background-color: #7126B5;
+    height: 40px;
+    border: 1px solid #7126B5;
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+}
+
+.button-match-terima:hover {
+    background-color: white;
+    color: #7126B5;
+    font-weight: 600;
+    height: 40px;
+    border: 1px solid #7126B5;
+    border-radius: 15px;
+}
+
+.data-container{
+    background-color: #EEEEEE;
+}
+
+.button-kirim {
+    background-color: #7126B5;
+    height: 40px;
+    border: 1px solid #7126B5;
+    border-radius: 15px;
+    color: white;
+    /* width: 200px; */
+}
+
+.button-kirim:hover {
+    background-color: white;
+    color: #7126B5;
+    font-weight: 600;
+    height: 40px;
+    border: 1px solid #7126B5;
+    border-radius: 15px;
+}
