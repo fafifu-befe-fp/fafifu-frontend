@@ -13,7 +13,6 @@ const Penawaran = () => {
     <div className='container d-block'>
         <div className='row mt-5 d-flex justify-content-center'>
             <div className='col-sm-6 col-md-12 col-lg-6 forminfo'>
-                <Hubungi/>
                 <IoMdArrowBack className='backlogo mt-2' size={20} />
                 <div className="row d-flex flex-row shadow py-3 px-1 mb-3 bg-white rounded">
                     <div className="col-auto px-4">
