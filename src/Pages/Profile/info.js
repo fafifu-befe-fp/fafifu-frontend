@@ -1,8 +1,7 @@
 import React from 'react'
-import { IoMdArrowBack } from 'react-icons/io'
 import FormProfile from '../../components/FormProfile'
 
-const info = () => {
+const Info = () => {
   return (
     <>
         <div>Navbar harusnya</div>
@@ -11,4 +10,4 @@ const info = () => {
   )
 }
 
-export default info
+export default Info
