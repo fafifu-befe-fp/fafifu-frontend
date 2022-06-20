@@ -2,8 +2,8 @@ import React from 'react'
 
 const RegisterRightSide = () => {
   return (
-    <div className='row justify-content-center align-items-center h-100'>
-        <div className='col-6'>
+    <div className='row justify-content-center align-items-center h-100 logreg-res'>
+        <div className='col-10 col-sm-8 col-lg-6'>
             <h1 className='mb-3'>Daftar</h1>
             <form>
                 <div className='mb-3'>

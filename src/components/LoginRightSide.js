@@ -2,8 +2,8 @@ import React from 'react'
 
 const LoginRightSide = () => {
   return (
-    <div className='row justify-content-center align-items-center h-100'>
-        <div className='col-6'>
+    <div className='row justify-content-center align-items-center h-100 logreg-res'>
+        <div className='col-10 col-sm-8 col-lg-6'>
             <h1 className='mb-3'>Masuk</h1>
             <form>
                 <div class="mb-3">
