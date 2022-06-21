@@ -6,7 +6,6 @@ import '../App.css'
 import Image from '../assets/images/Picture.svg'
 import ImageProduct from '../assets/images/Produk.svg'
 import '../assets/styles/Penawaran.css'
-import Hubungi from '../components/ModalPenawar';
 
 const Penawaran = () => {
   return (
