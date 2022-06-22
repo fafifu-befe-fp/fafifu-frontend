@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -41,7 +40,7 @@ const Slider = () => {
         className="mySwiper"
       >
         <SwiperSlide><img src="../../img/slider1.png" alt="imgbanner1" border="0" className=""/></SwiperSlide>
-        <SwiperSlide><img src="/images/img1.png" alt="imgbanner1" border="0" className="img-fluid"/></SwiperSlide>
+        <SwiperSlide><img src="../../img/slider1.png" alt="imgbanner1" border="0" className="img-fluid"/></SwiperSlide>
         <SwiperSlide><img src="/images/img1.png" alt="imgbanner1" border="0" className="img-fluid"/></SwiperSlide>
       </Swiper>
     </>

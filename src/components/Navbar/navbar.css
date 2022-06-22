@@ -11,6 +11,7 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 999999;
   }
   
   nav li {
@@ -18,6 +19,14 @@ header {
     list-style-type: none;
     margin: 10px;
     
+  }
+
+  .search-bar {
+    width: 95%;
+    border-radius: 16px;
+    padding: 8px 20px;
+    border: 1px solid lightgray;
+    margin-left: -10px;
   }
   
   /* #nav {

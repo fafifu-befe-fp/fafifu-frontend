@@ -7,9 +7,9 @@ import {FiSearch} from 'react-icons/fi';
 const Category = () => {
   return (
     <div className='container'>
-        <h6 className='mt-3'><b>Telusuri Kategori</b></h6>
+        <h6 className='mt-1 mx-4'><b>Telusuri Kategori</b></h6>
         <div className='d-flex flex-row m-3'>
-          <button type='button' className='btn m-2'><FiSearch className='fi m-1'/>Semua</button>
+          <button type='button' className='btn btn-active m-2'><FiSearch className='fi m-1'/>Semua</button>
           <button type='button' className='btn m-2'><FiSearch className='fi m-1'/>Jam</button>
           <button type='button' className='btn m-2'><FiSearch className='fi m-1'/>Hobi</button>
           <button type='button' className='btn m-2'><FiSearch className='fi m-1'/>Kendaraan</button>
@@ -18,8 +18,7 @@ const Category = () => {
 
         {/* CARDS */}
         <div className='container'>
-        <div className='row p-1'>
-          <div className='col-lg-2 col-sm-6 p-1'><Card /></div>
+        <div className='row p-3'>
           <div className='col-lg-2 col-sm-6 p-1'><Card /></div>
           <div className='col-lg-2 col-sm-6 p-1'><Card /></div>
           <div className='col-lg-2 col-sm-6 p-1'><Card /></div>
