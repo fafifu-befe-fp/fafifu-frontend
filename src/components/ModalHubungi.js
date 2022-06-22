@@ -1,9 +1,7 @@
 import React from 'react'
-import Image from '../assets/images/Picture.svg'
-import ImageProduct from '../assets/images/Produk.svg'
 import { BsWhatsapp } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
-import '../assets/styles/Match.css'
+import './Styles/Match.css'
 
 const ModalHubungi = () => {
   return (
@@ -22,7 +20,7 @@ const ModalHubungi = () => {
                 </div>
                 <div className="d-flex flex-row py-2 px-1">
                     <div className="col-auto px-4">
-                        <img className="row w-15" src={Image} alt=''/>
+                        <img className="row w-15" src='img/Picture.svg' alt=''/>
                     </div>
                     <div className="col-auto">
                         <div>
@@ -35,7 +33,7 @@ const ModalHubungi = () => {
                 </div>
                 <div className="d-flex flex-row py-2 px-1">
                     <div className="col-auto px-4">
-                        <img className="row w-15" src={ImageProduct} alt=''/>
+                        <img className="row w-15" src='img/Produk.svg' alt=''/>
                     </div>
                     <div className="col-auto">
                         <div>
