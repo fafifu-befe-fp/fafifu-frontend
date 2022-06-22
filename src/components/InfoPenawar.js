@@ -3,9 +3,7 @@ import { IoMdArrowBack } from 'react-icons/io'
 import { BsWhatsapp } from 'react-icons/bs'
 import { useDropzone } from 'react-dropzone';
 import '../App.css'
-import Image from '../assets/images/Picture.svg'
-import ImageProduct from '../assets/images/Produk.svg'
-import '../assets/styles/Penawaran.css'
+import './Styles/Penawaran.css'
 
 const Penawaran = () => {
   return (
@@ -15,7 +13,7 @@ const Penawaran = () => {
                 <IoMdArrowBack className='backlogo mt-2' size={20} />
                 <div className="row d-flex flex-row shadow py-3 px-1 mb-3 bg-white rounded">
                     <div className="col-auto px-4">
-                        <img className="row w-15" src={Image} alt=''/>
+                        <img className="row w-15" src='img/Picture.svg' alt=''/>
                     </div>
                     <div className="col-auto">
                         <div>
@@ -32,7 +30,7 @@ const Penawaran = () => {
                 <div className="row d-flex flex-row shadow py-3 px-1 mt-3 rounded">
                     <div className="row">
                         <div className="col-auto">
-                            <img className="" src={ImageProduct} alt=''/>
+                            <img className="" src='img/Produk.svg' alt=''/>
                         </div>
                         <div className="col-10">
                             <div className="d-flex justify-content-between w-100">
