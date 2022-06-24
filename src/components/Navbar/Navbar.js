@@ -10,14 +10,14 @@ const Navbar = () => {
   return (
     <>
     <header>
-      <nav className='mh-100'>
+      <nav className='mh-50'>
         <div className='container'>
           <div className='row align-items-center justify-content-between'>
             <div className='col flex-grow-1'>
               <Link to='/'><img src='../../img/logo.png' /></Link>
             </div>
             <div className='col flex-grow-2'>
-              Search
+              <input type='text' placeholder='Cari disini...' className='search-bar'/>
             </div>
             <div className='col flex-grow-1'>
               <ul>

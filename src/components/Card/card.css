@@ -5,6 +5,12 @@ h5, p {
 img {
     width: 165.33px;
     height: 100px;
+    padding: 2px 4px;
     border-radius: 4px;
     object-fit: none;
+}
+
+.card {
+    margin: -7px;
+    margin-bottom: 15px;
 }

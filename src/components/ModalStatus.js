@@ -1,9 +1,7 @@
 import React from 'react'
-import Image from '../assets/images/Picture.svg'
-import ImageProduct from '../assets/images/Produk.svg'
 import { BsWhatsapp } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
-import '../assets/styles/Match.css'
+import './Styles/Match.css'
 
 const ModalStatus = () => {
   return (

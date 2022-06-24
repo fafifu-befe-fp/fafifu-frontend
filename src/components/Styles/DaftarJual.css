@@ -1,0 +1,12 @@
+.svg{
+    
+}
+
+.category-container:hover .svg{
+    filter: invert(13%) sepia(85%) saturate(4371%) hue-rotate(270deg) brightness(94%) contrast(40%);
+}
+
+.category-container:hover .text{
+    color: #7126B5;
+    font-weight: 600;
+}
