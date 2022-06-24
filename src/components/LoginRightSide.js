@@ -14,7 +14,7 @@ const LoginRightSide = () => {
                   <label for="InputPassword" class="form-label">Password</label>
                   <input type="password" class="form-control" id="InputPassword" placeholder='Masukkan password'/>
                 </div>
-                <button type="submit" class="btn buttonsimpan w-100 text-white mb-5">Submit</button>
+                <button type="submit" class="buttonsimpan w-100 text-white mb-5">Submit</button>
                 <div className='wrapper-signup text-center'>
                   <span>Belum punya akun? <a href='#' className='text-decoration-none'>Daftar di sini</a></span>
                 </div>
