@@ -27,14 +27,6 @@ const Navbar = () => {
               </ul>
             </div>
 
-
-
-            {/* <div className='col'>
-
-            </div>
-            <div className='col'>
-            
-            </div> */}
           </div>
         </div>
       </nav>
