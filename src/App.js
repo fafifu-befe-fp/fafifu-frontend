@@ -5,7 +5,6 @@ import Navbar from './components/Navbar/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home';
 import List from './Pages/List/List';
-import Login from './Pages/Login/Login';
 import DaftarJual from './components/DaftarJual'
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register'

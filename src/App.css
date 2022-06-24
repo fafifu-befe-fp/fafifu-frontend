@@ -115,6 +115,22 @@ input:focus, button:focus, button:active, button:hover, label:focus,
     box-shadow: none !important;
 }
 
+.buttonedit{
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    padding: 12px 0 12px 0;
+    border: 1px solid var(--basecolor) ;
+}
+
+.buttonedit:hover{
+    border-radius: 16px;
+    background-color: var(--basecolor);
+    color: white;
+    padding: 12px 0 12px 0;
+    border-style: none;
+}
+
 
 /* RESPOSIVE AREA */
 @media (max-width:576px){
